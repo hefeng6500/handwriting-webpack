@@ -1,0 +1,23 @@
+{
+  "name": "my-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./bin/my-webpack.js",
+  "scripts": {
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.11.6",
+    "@babel/parser": "^7.11.5",
+    "@babel/traverse": "^7.11.5",
+    "@babel/types": "^7.11.5",
+    "babylon": "^6.18.0",
+    "ejs": "^3.1.5",
+    "tapable": "^1.1.3"
+  }
+}
